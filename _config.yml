@@ -1,26 +1,44 @@
-title: 03 Blog
-email: hello@example.com
+title: 뭐냐곰
+email: polarbxx@gmail.com
 description: >-
-  Jekyll과 GitHub Pages로 운영하는 개인 기술 블로그입니다.
+  AI 기본지식을 쉽게 설명하는 블로그입니다.
 lang: ko-KR
 locale: ko_KR
 timezone: Asia/Seoul
 baseurl: ""
 url: "https://polarbxx.github.io"
 github_username: polarbxx
+repository: "polarbxx/polarbxx.github.io"
 author:
-  name: Byeonghwi
+  name: polarbxx
+  bio: "비개발자도 이해할 수 있도록 AI 기본지식을 쉽게 풀어씁니다."
 
-header_pages:
-  - about.markdown
+minimal_mistakes_skin: "mint"
+remote_theme: "mmistakes/minimal-mistakes"
 
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Build settings
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      toc: true
+      toc_sticky: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
 exclude:
   - README.md

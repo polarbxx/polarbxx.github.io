@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: single
 title: "블로그를 시작합니다"
 date:   2026-04-14 23:30:32 +0900
 categories: [blog, start]
+permalink: /start/
 ---
 Jekyll와 GitHub Pages로 블로그를 시작했습니다.
 
