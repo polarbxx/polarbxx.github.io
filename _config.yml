@@ -1,0 +1,26 @@
+title: 03 Blog
+email: hello@example.com
+description: >-
+  Jekyll과 GitHub Pages로 운영하는 개인 기술 블로그입니다.
+lang: ko-KR
+locale: ko_KR
+timezone: Asia/Seoul
+baseurl: ""
+url: "https://polarbxx.github.io"
+github_username: polarbxx
+author:
+  name: Byeonghwi
+
+header_pages:
+  - about.markdown
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+exclude:
+  - README.md
